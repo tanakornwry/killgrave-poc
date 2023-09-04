@@ -1,0 +1,12 @@
+[
+    {
+        "request": {
+            "method": "POST",
+            "endpoint": "/users",
+            "schemaFile": "/schemas/add_user_4.json"
+        },
+        "response": {
+            "status": 201
+        }
+    }
+]

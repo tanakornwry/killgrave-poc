@@ -1,0 +1,15 @@
+[
+    {
+        "request": {
+            "method": "GET",
+            "endpoint": "/users/{_id:[\\w]{4}}"
+        },
+        "response": {
+            "status": 200,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "body": "{\"first_name\": \"Kratos\", \"last_name\": \"Killgrave\"}"
+        }
+    }
+]

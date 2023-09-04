@@ -1,0 +1,16 @@
+[
+    {
+        "request": {
+            "method": "GET",
+            "endpoint": "/users/export"
+        },
+        "response": {
+            "status": 200,
+            "headers": {
+                "Content-Type": "application/zip",
+                "Content-Disposition": "attachment; filename=export_user.zip"
+            },
+            "bodyFile": "response_files/export_user.zip"
+        }
+    }
+]

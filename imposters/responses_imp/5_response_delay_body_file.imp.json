@@ -1,0 +1,29 @@
+[
+    {
+        "request": {
+            "method": "GET",
+            "endpoint": "/users/4"
+        },
+        "response": {
+            "status": 200,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "bodyFile": "response_files/user_id_4.json",
+            "delay": "2s:5s"
+        }
+    },
+    {
+        "request": {
+            "method": "GET",
+            "endpoint": "/users/100"
+        },
+        "response": {
+            "status": 404,
+            "headers": {
+                "Content-Type": "application/json"
+            },
+            "body": "{\"message\": \"user is not found\"}"
+        }
+    }
+]
